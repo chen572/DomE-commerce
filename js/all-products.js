@@ -39,6 +39,7 @@ const moveToAllProducts = () => {
         const addToCartBtn = document.createElement('div');
         addToCartBtn.classList.add('addToCartBtn');
         addToCartBtn.innerHTML = 'Add to cart';
+        addToCartBtn.setAttribute('onclick', 'addToCart(this)');
 
         productContainer.appendChild(photoContainer);
         productContainer.appendChild(movieTitle);

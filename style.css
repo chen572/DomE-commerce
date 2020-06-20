@@ -23,11 +23,26 @@ body {
 }
 
 #nav-bar > a {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     cursor: pointer;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 170px;
+    position: relative;
+    bottom: 7px;
+}
+
+#cartIcon {
+    position: relative;
+    cursor: pointer;
+}
+
+#cartCounter {
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
 }
 
 #header {
@@ -35,6 +50,15 @@ body {
     font-weight: bold;
     text-align: center;
     color: darkred;
+    margin-top: 55px;
+}
+
+#about-para {
+    font-size: 24px;
+    font-weight: 500;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
 #product-container {
@@ -96,6 +120,42 @@ body {
     text-align: center;
     top: 370px;
     left: 10px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#product-container-in-cart {
+    width: 1500px;
+    height: 217px;
+    background-color: #ffffff;
+}
+
+.movie-title-in-cart {
+    position: relative;
+    left: 170px;
+}
+
+span {
+    position: relative;
+    top: 160px;
+}
+
+hr {
+    height: 5px;
+    background-color: darkred;
+    position: relative;
+    bottom: 40px;
+}
+
+.deleteFromCartBtn {
+    position: relative;
+    background-color: darkred;
+    color: #ffffff;
+    width: 150px;
+    text-align: center;
+    top: 115px;
+    left: 200px;
     padding: 8px;
     cursor: pointer;
     font-weight: bold;
